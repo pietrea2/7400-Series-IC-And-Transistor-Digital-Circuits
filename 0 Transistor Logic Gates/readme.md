@@ -6,7 +6,8 @@ Fundamental Logic Gates built using [P2N2222A](https://www.onsemi.com/pdf/datash
 - AND
 - OR
 - NAND
-- NOR XOR
+- NOR
+- XOR
 
 ![Breadboard Logic Gates](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/assets/60241038/c8bf851a-cf3e-4c03-a2fc-89d1c50d7ce0)
 
