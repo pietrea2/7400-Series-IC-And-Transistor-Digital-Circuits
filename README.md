@@ -37,7 +37,9 @@ https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/asset
 
 ## 7400 Series IC Memory Digital Circuits
 
+![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/assets/60241038/8b83d3c3-c054-4864-be5a-f1dfe1c19b05)
 
+&nbsp;
 
 ### [1: SR Latch](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/tree/main/1%20SR%20Latch)
 
