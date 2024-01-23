@@ -193,6 +193,34 @@
       </elementAttributes>
       <pos x="1580" y="320"/>
     </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Data In</string>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Stored Memory</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1360" y="120"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
