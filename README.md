@@ -22,6 +22,7 @@ All these digital circuit use the original TTL 7400 DIP ICs. The are usually che
 
 ## [0: Transistor Logic Gate Circuits](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/tree/main/0%20Transistor%20Logic%20Gates)
 
+https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/assets/60241038/a64bccd3-416a-4c36-874d-15ef26522132
 
 
 
