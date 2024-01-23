@@ -3,14 +3,18 @@
 
 By Adam Pietrewicz
 
-This repo holds some digital circuit builds using the original [7400 Series IC chips](https://en.wikipedia.org/wiki/7400-series_integrated_circuits), originally a transistor-transistor logic ([TTL](https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic)) chip family created by Texas Instruments (74LS Series) and later updated to [CMOS](https://en.wikipedia.org/wiki/CMOS) technology (74HC Series).
+This repo holds some digital circuit builds using the [7400 Series IC chips](https://en.wikipedia.org/wiki/7400-series_integrated_circuits), originally a transistor-transistor logic ([TTL](https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic)) chip family created by Texas Instruments (74LS Series) and later updated to [CMOS](https://en.wikipedia.org/wiki/CMOS) technology (74HC Series).
 
 <p align="center">
   <img src="https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/Images/ttl_vs_cmos.png" />
 </p>
+<em>
 <p align="center">
 TTL circuits use BJT transitors while CMOS circuits use MOSFETs.
 </p>
+</em>
+
+All these digital circuit use the original TTL 7400 DIP ICs. The are usually cheaper however consume more power than CMOS. But the main reason was because I wanted to first build the basic digital logic gates using purely BJT NPN transitors and resistors to really start from the ground up. I chose to use [P2N2222A](https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf) BJT NPN transitors.
 
 
 ## [1: SR Latch](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/tree/main/1%20SR%20Latch)
