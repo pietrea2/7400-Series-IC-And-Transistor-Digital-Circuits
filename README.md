@@ -21,6 +21,10 @@ TTL circuits use BJTs while CMOS circuits use MOSFETs (different type of transis
 All these digital circuit use the original TTL 7400 DIP ICs. The are usually cheaper however consume more power than CMOS. But the main reason was because I wanted to first build the basic digital logic gates using purely NPN BJTs and resistors to really start from the ground up. I chose to use [P2N2222A](https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf) NPN BJTs.
 
 ## [0: Transistor Logic Gate Circuits](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/tree/main/0%20Transistor%20Logic%20Gates)
+
+
+
+
 ![Or Gate Example Circuit](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/0%20Transistor%20Logic%20Gates/d%20OR/OR.png)
 *Example OR logic gate built using transistors.*
 
