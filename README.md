@@ -24,7 +24,7 @@ All these digital circuit use the original TTL 7400 DIP ICs. The are usually che
 
 ### [0: Transistor Logic Gate Circuits](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/tree/main/0%20Transistor%20Logic%20Gates)
 
-![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/assets/60241038/db50d62b-72c6-476e-9315-018b424df221)
+![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/Images/breadboard_logic_gates_labeled_3.png)
 
 
 https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/assets/60241038/a64bccd3-416a-4c36-874d-15ef26522132
@@ -37,13 +37,13 @@ https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/asset
 
 ## 7400 Series IC Memory Digital Circuits
 
-![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/assets/60241038/8b83d3c3-c054-4864-be5a-f1dfe1c19b05)
+![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/Images/digital%20circuits_2.jpg)
 
 &nbsp;
 
 ### [1: SR Latch](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/tree/main/1%20SR%20Latch)
 
-![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/assets/60241038/ed03144b-083f-4637-98d6-830c6885514c)
+![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/Images/sr_latch.jpg)
 ![SR Latch Schematic](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/1%20SR%20Latch/SR%20Latch.png)
 
 &nbsp;
@@ -51,7 +51,7 @@ https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/asset
 
 ### [2: Gated D Latch](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/tree/main/2%20Gated%20D%20Latch)
 
-![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/assets/60241038/f546c01e-36de-48e3-95e7-043a0229f0b1)
+![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/Images/d%20gated%20latch.jpg)
 ![Gated D Latch Schematic](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/2%20Gated%20D%20Latch/Gated%20D%20Latch.png)
 
 &nbsp;
