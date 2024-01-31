@@ -79,3 +79,10 @@ https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/asset
 ![Binary Adder Module Schematic](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/5%20Binary%20Adder%20Module/4%20Bit%20Binary%20Adder%20Module.png)
 
 &nbsp;
+&nbsp;
+
+### [6: Seven Segment HEX Decoder](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/tree/main/6%207%20Segment%20HEX%20Decoder)
+
+![7 Segment Decoder](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6%207%20Segment%20HEX%20Decoder/7%20segment%20HEX%20decoder.png)
+
+&nbsp;
