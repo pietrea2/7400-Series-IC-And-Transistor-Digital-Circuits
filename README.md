@@ -44,7 +44,7 @@ https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/asset
 ### [1: SR Latch](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/tree/main/1_SR_Latch)
 
 ![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/Images/sr_latch.jpg)
-![SR Latch Schematic](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/1_SR_Latch/SR%20Latch.png)
+![SR Latch Schematic](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/1_SR_Latch/sr_latch_digital_schematic_1.png)
 
 &nbsp;
 &nbsp;
