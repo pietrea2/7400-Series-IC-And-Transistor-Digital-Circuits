@@ -1,0 +1,37 @@
+|register_4bit
+Q0 <= 74173:inst.1Q
+D2 => 74173:inst.3D
+Out_Enable0 => 74173:inst.MN
+D0 => 74173:inst.1D
+D1 => 74173:inst.2D
+D3 => 74173:inst.4D
+Data_Enable0 => 74173:inst.G1N
+Data_Enable1 => 74173:inst.G2N
+Out_Enable1 => 74173:inst.NN
+clr => 74173:inst.CLR
+clk => 74173:inst.CLK
+Q1 <= 74173:inst.2Q
+Q2 <= 74173:inst.3Q
+Q3 <= 74173:inst.4Q
+
+
+|register_4bit|74173:inst
+1Q <= 42.DB_MAX_OUTPUT_PORT_TYPE
+CLR => 22.IN0
+CLK => 9.CLK
+CLK => 8.CLK
+CLK => 7.CLK
+CLK => 6.CLK
+G1N => 25.IN0
+G2N => 25.IN1
+1D => 20.IN0
+MN => 24.IN0
+NN => 24.IN1
+2Q <= 43.DB_MAX_OUTPUT_PORT_TYPE
+2D => 18.IN0
+3Q <= 44.DB_MAX_OUTPUT_PORT_TYPE
+3D => 16.IN0
+4Q <= 45.DB_MAX_OUTPUT_PORT_TYPE
+4D => 14.IN0
+
+
