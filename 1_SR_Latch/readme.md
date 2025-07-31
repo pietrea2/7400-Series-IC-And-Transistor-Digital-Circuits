@@ -15,4 +15,8 @@ The **quartus** folder holds a schematic developed using Quartus Prime, and incl
 
 ![SR Latch Schematic](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/1_SR_Latch/sr_latch_quartus_schematic.png)
 
-*SR Latch schematic using Quartus CAD*
+*NOR SR Latch schematic using Quartus CAD*
+
+![SR Latch Schematic](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/1_SR_Latch/sr_latch_quartus_schematic_nand.png)
+
+*NAND SR Latch schematic using Quartus CAD*

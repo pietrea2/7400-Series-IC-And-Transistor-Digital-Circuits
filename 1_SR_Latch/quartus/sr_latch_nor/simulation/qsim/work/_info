@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/1_SR_Latch/quartus/simulation/qsim
+vsr_latch
+Z0 !s110 1753930695
+!i10b 1
+!s100 SzFMHm6O[IZOIW15QNU3J2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKG;<ea5:W64056oYGf4d93
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/1_SR_Latch/quartus/sr_latch_nor/simulation/qsim
+w1753930694
+8sr_latch.vo
+Fsr_latch.vo
+!i122 14
+L0 32 161
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1753930695.000000
+!s107 sr_latch.vo|
+!s90 -work|work|sr_latch.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsr_latch_vlg_vec_tst
+R0
+!i10b 1
+!s100 1K805?moWjZ:b5fHN3S9k3
+R1
+IJU0FaoP]10zhA;B4DSfRI1
+R2
+R3
+w1753930689
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 15
+L0 30 38
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R6
+R7
