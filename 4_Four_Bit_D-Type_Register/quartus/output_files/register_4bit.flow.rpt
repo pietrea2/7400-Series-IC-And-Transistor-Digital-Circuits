@@ -1,5 +1,5 @@
 Flow report for register_4bit
-Wed Jul 30 02:39:42 2025
+Thu Jul 31 01:48:57 2025
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Wed Jul 30 02:39:42 2025          ;
+; Flow Status                     ; Successful - Thu Jul 31 01:48:57 2025          ;
 ; Quartus Prime Version           ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                   ; register_4bit                                  ;
 ; Top-level Entity Name           ; register_4bit                                  ;
@@ -104,7 +104,15 @@ https://fpgasoftware.intel.com/eula.
 ; Assembler            ; 00:00:09     ; 1.0                     ; 5245 MB             ; 00:00:04                           ;
 ; Timing Analyzer      ; 00:00:08     ; 1.1                     ; 5395 MB             ; 00:00:03                           ;
 ; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4751 MB             ; 00:00:01                           ;
-; Total                ; 00:02:23     ; --                      ; --                  ; 00:08:33                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4750 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4751 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4750 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4751 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4750 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4751 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4750 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4751 MB             ; 00:00:01                           ;
+; Total                ; 00:03:03     ; --                      ; --                  ; 00:08:41                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -118,6 +126,14 @@ https://fpgasoftware.intel.com/eula.
 ; Assembler            ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -129,6 +145,14 @@ quartus_fit --read_settings_files=off --write_settings_files=off register_4bit -
 quartus_asm --read_settings_files=off --write_settings_files=off register_4bit -c register_4bit
 quartus_sta register_4bit -c register_4bit
 quartus_eda --read_settings_files=off --write_settings_files=off register_4bit -c register_4bit
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off register_4bit -c register_4bit --vector_source=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/Waveform.vwf --testbench_file=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/simulation/qsim/ register_4bit -c register_4bit
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off register_4bit -c register_4bit --vector_source=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/Waveform.vwf --testbench_file=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/simulation/qsim/ register_4bit -c register_4bit
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off register_4bit -c register_4bit --vector_source=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/Waveform.vwf --testbench_file=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/simulation/qsim/ register_4bit -c register_4bit
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off register_4bit -c register_4bit --vector_source=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/Waveform.vwf --testbench_file=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/simulation/qsim/ register_4bit -c register_4bit
 
 
 

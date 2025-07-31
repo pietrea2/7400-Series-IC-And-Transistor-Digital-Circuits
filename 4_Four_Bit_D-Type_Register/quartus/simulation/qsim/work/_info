@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/4_Four_Bit_D-Type_Register/quartus/simulation/qsim
+vregister_4bit
+Z1 !s110 1753940938
+!i10b 1
+!s100 G]TmkDF8o0CRET;04jAn>0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Id;R>gkYJ_UW21_ll>J:1X2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1753940937
+8register_4bit.vo
+Fregister_4bit.vo
+!i122 6
+L0 32 464
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1753940938.000000
+!s107 register_4bit.vo|
+!s90 -work|work|register_4bit.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vregister_4bit_vlg_vec_tst
+R1
+!i10b 1
+!s100 bh3aaUlamQ;WNhM6kHTGc2
+R2
+IUFe7N=7nTa7Akc>GQK2Bf0
+R3
+R0
+w1753940932
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 7
+L0 30 130
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
