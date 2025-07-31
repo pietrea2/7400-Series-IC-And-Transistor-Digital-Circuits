@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/6_7-Segment_HEX_Decoder/quartus/simulation/qsim
+vdecoder_7seg
+Z1 !s110 1753977882
+!i10b 1
+!s100 WoN2_=l1JjaB2AWTZ^T:82
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Il^7`PmV<<BGYb4:KoLQKO2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1753977881
+8decoder_7seg.vo
+Fdecoder_7seg.vo
+!i122 0
+L0 32 411
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1753977882.000000
+!s107 decoder_7seg.vo|
+!s90 -work|work|decoder_7seg.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vdecoder_7seg_vlg_vec_tst
+R1
+!i10b 1
+!s100 7@]4J]joA4GKP7mm;jQe03
+R2
+IPRNKbo_c6IS1]ZAJV5=nG1
+R3
+R0
+w1753977876
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 76
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
