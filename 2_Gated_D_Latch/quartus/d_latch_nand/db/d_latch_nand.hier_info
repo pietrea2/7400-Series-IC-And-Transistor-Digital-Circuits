@@ -1,0 +1,45 @@
+|d_latch_nand
+Q <= sr_latch_nand:inst.Q
+E => 7400:inst4.3
+E => 7400:inst5.2
+D => 7400:inst4.2
+D => 7404:inst3.2
+Q_NOT <= sr_latch_nand:inst.Q_not
+
+
+|d_latch_nand|sr_latch_nand:inst
+Q <= 7400:inst.1
+R_not => 7400:inst3.3
+S_not => 7400:inst.2
+Q_not <= 7400:inst3.1
+
+
+|d_latch_nand|sr_latch_nand:inst|7400:inst
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|d_latch_nand|sr_latch_nand:inst|7400:inst3
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|d_latch_nand|7400:inst4
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|d_latch_nand|7400:inst5
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|d_latch_nand|7404:inst3
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+
+

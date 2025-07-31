@@ -15,3 +15,7 @@ The **quartus** folder holds a schematic developed using Quartus Prime, and incl
 ![Gated D Latch Quartus Schematic](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/2_Gated_D_Latch/d_latch_quartus_schematic.png)
 
 *D Latch schematic using Quartus*
+
+![Gated D Latch Quartus Schematic](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/2_Gated_D_Latch/d_latch_quartus_schematic_nand.png)
+
+*D Latch (only NANDs) schematic using Quartus*
