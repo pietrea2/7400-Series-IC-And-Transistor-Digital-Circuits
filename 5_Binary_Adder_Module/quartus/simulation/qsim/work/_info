@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/5_Binary_Adder_Module/quartus/simulation/qsim
+vbinary_counter_adder_4bit
+Z1 !s110 1753943361
+!i10b 1
+!s100 5Aj9?7Wnf@Od7FFGjI5nH3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IAh;jH2[iS0EZYeQd4@jJ63
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1753943360
+8binary_counter_adder_4bit.vo
+Fbinary_counter_adder_4bit.vo
+!i122 2
+L0 32 844
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1753943361.000000
+!s107 binary_counter_adder_4bit.vo|
+!s90 -work|work|binary_counter_adder_4bit.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vbinary_counter_adder_4bit_vlg_vec_tst
+R1
+!i10b 1
+!s100 `9dJ13Tg`CHzAJ7bH9SRd2
+R2
+I_JFi?8b@U3lMf;Jd@hSh52
+R3
+R0
+w1753943355
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 73
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

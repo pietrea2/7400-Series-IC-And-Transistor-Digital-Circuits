@@ -1,0 +1,156 @@
+|binary_counter_adder_4bit
+s0 <= 74283:inst2.SUM1
+clr0_NOT => 74161:inst.CLRN
+count_0 => 74161:inst.CLK
+clr1_NOT => 74161:inst1.CLRN
+count_1 => 74161:inst1.CLK
+s1 <= 74283:inst2.SUM2
+s2 <= 74283:inst2.SUM3
+s3 <= 74283:inst2.SUM4
+cout <= 74283:inst2.COUT
+
+
+|binary_counter_adder_4bit|74283:inst2
+a[1] => f74283:sub.a[1]
+a[2] => f74283:sub.a[2]
+a[3] => f74283:sub.a[3]
+a[4] => f74283:sub.a[4]
+b[1] => f74283:sub.b[1]
+b[2] => f74283:sub.b[2]
+b[3] => f74283:sub.b[3]
+b[4] => f74283:sub.b[4]
+cin => f74283:sub.cin
+cout <= f74283:sub.cout
+sum[1] <= f74283:sub.sum[1]
+sum[2] <= f74283:sub.sum[2]
+sum[3] <= f74283:sub.sum[3]
+sum[4] <= f74283:sub.sum[4]
+
+
+|binary_counter_adder_4bit|74283:inst2|f74283:sub
+SUM1 <= 76.DB_MAX_OUTPUT_PORT_TYPE
+CIN => 108.DATAIN
+A1 => 77.IN1
+A1 => 92.IN1
+A1 => 93.IN1
+B1 => 76.IN1
+B1 => 93.IN0
+B1 => 94.IN1
+COUT <= 91.DB_MAX_OUTPUT_PORT_TYPE
+A2 => 95.IN1
+A2 => 97.IN1
+A2 => 79.IN1
+B2 => 97.IN0
+B2 => 96.IN1
+B2 => 78.IN1
+A3 => 98.IN1
+A3 => 100.IN1
+A3 => 81.IN1
+B3 => 100.IN0
+B3 => 99.IN1
+B3 => 80.IN1
+A4 => 101.IN1
+A4 => 103.IN1
+A4 => 83.IN1
+B4 => 103.IN0
+B4 => 102.IN1
+B4 => 82.IN1
+SUM4 <= 82.DB_MAX_OUTPUT_PORT_TYPE
+SUM3 <= 80.DB_MAX_OUTPUT_PORT_TYPE
+SUM2 <= 78.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_counter_adder_4bit|74161:inst
+clk => f74161:sub.clk
+ldn => f74161:sub.ldn
+clrn => f74161:sub.clrn
+enp => f74161:sub.enp
+ent => f74161:sub.ent
+d => f74161:sub.d
+c => f74161:sub.c
+b => f74161:sub.b
+a => f74161:sub.a
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|binary_counter_adder_4bit|74161:inst|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_counter_adder_4bit|74161:inst1
+clk => f74161:sub.clk
+ldn => f74161:sub.ldn
+clrn => f74161:sub.clrn
+enp => f74161:sub.enp
+ent => f74161:sub.ent
+d => f74161:sub.d
+c => f74161:sub.c
+b => f74161:sub.b
+a => f74161:sub.a
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|binary_counter_adder_4bit|74161:inst1|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
