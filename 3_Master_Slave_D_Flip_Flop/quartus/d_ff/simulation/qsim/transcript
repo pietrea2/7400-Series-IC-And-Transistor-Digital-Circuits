@@ -1,0 +1,32 @@
+# do d_ff.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:14:35 on Jul 31,2025
+# vlog -work work d_ff.vo 
+# -- Compiling module d_ff
+# 
+# Top level modules:
+# 	d_ff
+# End time: 01:14:35 on Jul 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:14:35 on Jul 31,2025
+# vlog -work work Waveform1.vwf.vt 
+# -- Compiling module d_ff_vlg_vec_tst
+# 
+# Top level modules:
+# 	d_ff_vlg_vec_tst
+# End time: 01:14:35 on Jul 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.d_ff_vlg_vec_tst 
+# Start time: 01:14:35 on Jul 31,2025
+# Loading work.d_ff_vlg_vec_tst
+# Loading work.d_ff
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# after#25
+# ** Note: $finish    : Waveform1.vwf.vt(47)
+#    Time: 1 us  Iteration: 0  Instance: /d_ff_vlg_vec_tst
+# End time: 01:14:36 on Jul 31,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

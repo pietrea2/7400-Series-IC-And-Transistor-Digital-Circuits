@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/simulation/qsim
+vd_ff
+Z0 !s110 1753938875
+!i10b 1
+!s100 UCgZN`9fQ^GKoMcDK?51N1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+If@ngIBz5n>][@7h9UfdaS2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff/simulation/qsim
+w1753938874
+8d_ff.vo
+Fd_ff.vo
+!i122 6
+L0 32 142
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1753938875.000000
+!s107 d_ff.vo|
+!s90 -work|work|d_ff.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vd_ff_vlg_vec_tst
+R0
+!i10b 1
+!s100 D5c3mj>[k7KSNA]__8JVh2
+R1
+IF_X76@;;XgnVH=LHH06?d0
+R2
+R3
+w1753938869
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 7
+L0 30 90
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R6
+R7

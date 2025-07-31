@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim
+vd_ff_nand
+Z1 !s110 1753938076
+!i10b 1
+!s100 `=>n1Tcm2Y]eFSZBRmCI43
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1Z[9MM_^cgBJ0Rdk>9NaV1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1753938075
+8d_ff_nand.vo
+Fd_ff_nand.vo
+!i122 0
+L0 32 186
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1753938076.000000
+!s107 d_ff_nand.vo|
+!s90 -work|work|d_ff_nand.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vd_ff_nand_vlg_vec_tst
+R1
+!i10b 1
+!s100 SOlk3n0BhdOK1mTEMldj<3
+R2
+INmiC9iH9?Xf>Vzaf:JSM_2
+R3
+R0
+w1753938070
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 372
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

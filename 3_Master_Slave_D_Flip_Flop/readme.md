@@ -16,3 +16,7 @@ The **quartus** folder holds a schematic developed using Quartus Prime, and incl
 ![D Flip Flop Quartus Schematic](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/3_Master_Slave_D_Flip_Flop/d_ff_quartus_schematic.png)
 
 *D Flip Flop schematic using Quartus*
+
+![D Flip Flop Quartus Schematic](https://github.com/pietrea2/7400-Series-IC-Digital-Circuits/blob/main/3_Master_Slave_D_Flip_Flop/d_ff_quartus_schematic_nand.png)
+
+*D Flip Flop (only NANDs) schematic using Quartus*
