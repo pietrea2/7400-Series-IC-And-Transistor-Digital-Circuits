@@ -30,7 +30,7 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Jul 31 01:01:05 2025
+    Info: Processing started: Thu Jul 31 01:32:57 2025
 Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off d_ff_nand -c d_ff_nand --vector_source=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/Waveform.vwf --testbench_file=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim/Waveform.vwf.vt
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
@@ -63,13 +63,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Jul 31 01:01:10 2025
+    Info: Processing started: Thu Jul 31 01:33:02 2025
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim/ d_ff_nand -c d_ff_nand
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file d_ff_nand.vo in folder "C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 4762 megabytes
-    Info: Processing ended: Thu Jul 31 01:01:15 2025
+    Info: Processing ended: Thu Jul 31 01:33:07 2025
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:01
 
@@ -95,21 +95,21 @@ Reading pref.tcl
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 
-# Start time: 01:01:16 on Jul 31,2025
+# Start time: 01:33:08 on Jul 31,2025
 # vlog -work work d_ff_nand.vo 
 
 # -- Compiling module d_ff_nand
 
 # 
-
 # Top level modules:
+
 # 	d_ff_nand
-# End time: 01:01:16 on Jul 31,2025, Elapsed time: 0:00:00
+# End time: 01:33:08 on Jul 31,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 
-# Start time: 01:01:16 on Jul 31,2025
+# Start time: 01:33:08 on Jul 31,2025
 # vlog -work work Waveform.vwf.vt 
 
 # -- Compiling module d_ff_nand_vlg_vec_tst
@@ -119,11 +119,11 @@ Reading pref.tcl
 # Top level modules:
 # 	d_ff_nand_vlg_vec_tst
 
-# End time: 01:01:16 on Jul 31,2025, Elapsed time: 0:00:00
+# End time: 01:33:08 on Jul 31,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.d_ff_nand_vlg_vec_tst 
-# Start time: 01:01:16 on Jul 31,2025
+# Start time: 01:33:08 on Jul 31,2025
 # Loading work.d_ff_nand_vlg_vec_tst
 # Loading work.d_ff_nand
 # Loading cyclonev_ver.cyclonev_io_obuf
@@ -132,10 +132,10 @@ Reading pref.tcl
 
 # after#23
 
-# ** Note: $finish    : Waveform.vwf.vt(49)
+# ** Note: $finish    : Waveform.vwf.vt(47)
 #    Time: 1 us  Iteration: 0  Instance: /d_ff_nand_vlg_vec_tst
 
-# End time: 01:01:16 on Jul 31,2025, Elapsed time: 0:00:00
+# End time: 01:33:08 on Jul 31,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
@@ -148,7 +148,7 @@ Reading C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digit
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim/d_ff_nand_20250731010117.sim.vwf
+Writing the resulting VWF to C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim/d_ff_nand_20250731013308.sim.vwf
 
 Finished VCD to VWF conversion.
 

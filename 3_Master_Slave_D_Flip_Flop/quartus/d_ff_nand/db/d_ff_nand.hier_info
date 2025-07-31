@@ -2,7 +2,6 @@
 Q <= d_latch_nand:inst2.Q
 D => d_latch_nand:inst.D
 clk => 7404:inst3.2
-Q_NOT <= d_latch_nand:inst2.Q_NOT
 
 
 |d_ff_nand|d_latch_nand:inst2

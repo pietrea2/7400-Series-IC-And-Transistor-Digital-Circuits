@@ -1,5 +1,5 @@
 Flow report for d_ff_nand
-Thu Jul 31 01:01:15 2025
+Thu Jul 31 01:33:07 2025
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Thu Jul 31 01:01:15 2025          ;
+; Flow Status                     ; Successful - Thu Jul 31 01:33:07 2025          ;
 ; Quartus Prime Version           ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                   ; d_ff_nand                                      ;
 ; Top-level Entity Name           ; d_ff_nand                                      ;
@@ -50,7 +50,7 @@ https://fpgasoftware.intel.com/eula.
 ; Timing Models                   ; Final                                          ;
 ; Logic utilization (in ALMs)     ; 2 / 32,070 ( < 1 % )                           ;
 ; Total registers                 ; 0                                              ;
-; Total pins                      ; 4 / 457 ( < 1 % )                              ;
+; Total pins                      ; 3 / 457 ( < 1 % )                              ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                          ;
 ; Total DSP Blocks                ; 0 / 87 ( 0 % )                                 ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/31/2025 00:55:58 ;
+; Start date & time ; 07/31/2025 01:22:22 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; d_ff_nand           ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 1096212298750.175393775814588          ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 1096212298750.175393934225396          ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -99,14 +99,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4882 MB             ; 00:00:19                           ;
-; Fitter               ; 00:01:23     ; 1.0                     ; 7346 MB             ; 00:06:49                           ;
-; Assembler            ; 00:00:08     ; 1.0                     ; 5245 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:07     ; 1.1                     ; 5387 MB             ; 00:00:03                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4874 MB             ; 00:00:18                           ;
+; Fitter               ; 00:01:28     ; 1.0                     ; 7346 MB             ; 00:06:26                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 5246 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.1                     ; 5379 MB             ; 00:00:03                           ;
 ; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4751 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4750 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4750 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4750 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4751 MB             ; 00:00:01                           ;
-; Total                ; 00:02:04     ; --                      ; --                  ; 00:07:18                           ;
+; Total                ; 00:02:20     ; --                      ; --                  ; 00:06:56                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -122,6 +124,8 @@ https://fpgasoftware.intel.com/eula.
 ; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; adamp            ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -133,6 +137,8 @@ quartus_fit --read_settings_files=off --write_settings_files=off d_ff_nand -c d_
 quartus_asm --read_settings_files=off --write_settings_files=off d_ff_nand -c d_ff_nand
 quartus_sta d_ff_nand -c d_ff_nand
 quartus_eda --read_settings_files=off --write_settings_files=off d_ff_nand -c d_ff_nand
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off d_ff_nand -c d_ff_nand --vector_source=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff/Waveform2.vwf --testbench_file=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim/../d_ff/Waveform2.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off d_ff_nand -c d_ff_nand --vector_source=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff/Waveform3.vwf --testbench_file=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim/../d_ff/Waveform3.vwf.vt
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off d_ff_nand -c d_ff_nand --vector_source=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/Waveform.vwf --testbench_file=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim/Waveform.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim/ d_ff_nand -c d_ff_nand
 

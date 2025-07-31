@@ -1,5 +1,5 @@
 EDA Netlist Writer report for d_ff_nand
-Thu Jul 31 01:01:15 2025
+Thu Jul 31 01:33:07 2025
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Jul 31 01:01:15 2025 ;
+; EDA Netlist Writer Status ; Successful - Thu Jul 31 01:33:07 2025 ;
 ; Revision Name             ; d_ff_nand                             ;
 ; Top-level Entity Name     ; d_ff_nand                             ;
 ; Family                    ; Cyclone V                             ;
@@ -95,13 +95,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Jul 31 01:01:10 2025
+    Info: Processing started: Thu Jul 31 01:33:02 2025
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim/ d_ff_nand -c d_ff_nand
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file d_ff_nand.vo in folder "C:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 4762 megabytes
-    Info: Processing ended: Thu Jul 31 01:01:15 2025
+    Info: Processing ended: Thu Jul 31 01:33:07 2025
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:01
 

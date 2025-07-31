@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 dC:/Users/adamp/Documents/Digital/Digital/Breadboard/7400-Series-IC-Digital-Circuits/3_Master_Slave_D_Flip_Flop/quartus/d_ff_nand/simulation/qsim
 vd_ff_nand
-Z1 !s110 1753938076
+Z1 !s110 1753939988
 !i10b 1
-!s100 `=>n1Tcm2Y]eFSZBRmCI43
+!s100 U7T]Be`LM_kYDCX9HBY5^3
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I1Z[9MM_^cgBJ0Rdk>9NaV1
+I^BNU@n;M:MMUFCfa7^Sm41
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1753938075
+w1753939987
 8d_ff_nand.vo
 Fd_ff_nand.vo
 !i122 0
-L0 32 186
+L0 32 142
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1753938076.000000
+Z5 !s108 1753939988.000000
 !s107 d_ff_nand.vo|
 !s90 -work|work|d_ff_nand.vo|
 !i113 1
@@ -35,16 +35,16 @@ Z7 tCvgOpt 0
 vd_ff_nand_vlg_vec_tst
 R1
 !i10b 1
-!s100 SOlk3n0BhdOK1mTEMldj<3
+!s100 W]0b@oGWS7?bz=@F`HRDl3
 R2
-INmiC9iH9?Xf>Vzaf:JSM_2
+IT4o@F[828R:6k=Z1a:HY^1
 R3
 R0
-w1753938070
+w1753939982
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 !i122 1
-L0 30 372
+L0 30 95
 R4
 r1
 !s85 0

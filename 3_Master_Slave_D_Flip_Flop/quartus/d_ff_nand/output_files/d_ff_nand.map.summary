@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Thu Jul 31 00:56:05 2025
+Analysis & Synthesis Status : Successful - Thu Jul 31 01:22:29 2025
 Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 Revision Name : d_ff_nand
 Top-level Entity Name : d_ff_nand
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 4
+Total pins : 3
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0
