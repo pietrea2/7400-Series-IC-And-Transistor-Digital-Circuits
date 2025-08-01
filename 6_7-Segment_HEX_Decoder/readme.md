@@ -6,6 +6,8 @@ This is my custom implementation of a decoder for a CA (Common Anode) 7-segment 
 
 ![HEX Symbols](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/hex_symbols.png)
 
+## Truth Table & Algebraic Expressions
+
 ![Seven Segment Truth Table (Common Cathode)](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/truth_table_common_cathode.png)
 
 *Full truth table for 7-segment decoder*
@@ -14,24 +16,7 @@ The minimized algebraic expressions for the 7 segments are as follows:
 
 ![Seven Segment Algebraic Expression (Common Cathode)](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/algebraic_solution_7_seg.png)
 
-a = (b0 ∧ ¬b1 ∧ ¬b2 ∧ ¬b3) ∨ (¬b0 ∧ ¬b1 ∧ b2 ∧ ¬b3) ∨ (b0 ∧ b1 ∧ ¬b2 ∧ b3) ∨ (b0 ∧ ¬b1 ∧ b2 ∧ b3)
-
-b = (b0 ∧ ¬b1 ∧ b2 ∧ ¬b3) ∨ (¬b0 ∧ b1 ∧ b2) ∨ (b0 ∧ b1 ∧ b3) ∨ (¬b0 ∧ b2 ∧ b3) 
-
-c = (¬b0 ∧ b1 ∧ ¬b2 ∧ ¬b3) ∨ (¬b0 ∧ b2 ∧ b3) ∨ (b1 ∧ b2 ∧ b3) 
-
-d = (b0 ∧ ¬b1 ∧ ¬b2 ∧ ¬b3) ∨ (¬b0 ∧ ¬b1 ∧ b2 ∧ ¬b3) ∨ (b0 ∧ b1 ∧ b2) ∨ (¬b0 ∧ b1 ∧ ¬b2 ∧ b3) 
-
-e = (b0 ∧ ¬b3) ∨ (b0 ∧ ¬b1 ∧ ¬b2) ∨ (¬b1 ∧ b2 ∧ ¬b3) 
-
-f = (b0 ∧ ¬b2 ∧ ¬b3) ∨ (b0 ∧ b1 ∧ ¬b3) ∨ (b0 ∧ ¬b1 ∧ b2 ∧ b3) ∨ (b1 ∧ ¬b2 ∧ ¬b3) 
-
-g = (b0 ∧ b1 ∧ b2 ∧ ¬b3) ∨ (¬b0 ∧ ¬b1 ∧ b2 ∧ b3) ∨ (¬b1 ∧ ¬b2 ∧ ¬b3) 
-
-- ¬ = NOT (complement)
-- ∧ = AND
-- ∨ = OR
-
+## Circuit Construction
 
 I have algebraically minimized the combinational logic necessary to:
   - 4 NOT gates
@@ -54,6 +39,9 @@ I managed to minimize this 7-segment HEX decoder even more than the solution pro
   - 9x 7408 (AND)
   - 5x 7432 (OR)
   - **Total: 15 IC chips**
+
+
+## Design Files
 
 The **digital** folder holds the circuit built/simulated using [Digital](https://github.com/hneemann/Digital) circuit simulator! It is an easy to use digital logic designer and circuit simulator and it includes a large library of 7400 seriec IC chips.
 
