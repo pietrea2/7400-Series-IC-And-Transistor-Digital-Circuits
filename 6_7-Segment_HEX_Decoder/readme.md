@@ -32,28 +32,23 @@ g = (AB'C'D' + ABCD') + A'B'C'D' + A'B'CD
 
 ## Circuit Construction
 
-I have algebraically minimized the combinational logic necessary to:
-  - 4 NOT gates
-  - 23 AND gates
-  - 22 OR gates
-  - **Total: 49 logic gates**
+Below highlights the required amount of logic gates and IC chips necessary for implementing this decoder circuit:
+| Logic Gate    | Ben Eater's Version | My Version |
+| -------- | ------- | -------- |
+| NOT  | 4    | 4 |
+| AND | 33     | 23 |
+| OR    | 17    | 22 |
+| **Total:** | **54** | **49** |
 
-To physically build this decoder using 7400 Series IC chips it would require:
-  - 1x 7404 (NOT)
-  - 6x 7408 (AND)
-  - 6x 7432 (OR)
-  - **Total: 13 IC chips**
+| IC Chip    | Ben Eater's Version | My Version |
+| -------- | ------- | -------- |
+| 7404 (NOT)  | 1    | 1 |
+| 7408 (AND) | 9     | 6 |
+| 7432 (OR)    | 5    | 6 |
+| **Total:** | **15** | **13** |
 
-I managed to minimize this 7-segment HEX decoder even more than the solution provided/designed by [Ben Eater](https://shop.eater.net/) from his [Youtube video](https://www.youtube.com/watch?v=7zffjsXqATg) (his videos and projects inspired me to develop digital circuits on the breadboard!). His circuit uses:
-  - 4 NOT gates
-  - 33 AND gates
-  - 17 OR gates
-  - **Total: 54 logic gates**
-  - 1x 7404 (NOT)
-  - 9x 7408 (AND)
-  - 5x 7432 (OR)
-  - **Total: 15 IC chips**
-
+I managed to minimize this 7-segment HEX decoder even more than the solution provided/designed by [Ben Eater](https://shop.eater.net/) from his [Youtube video](https://www.youtube.com/watch?v=7zffjsXqATg) (his videos and projects inspired me to develop digital circuits on the breadboard!).
+ 
 
 ## Design Files
 
