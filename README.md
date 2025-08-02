@@ -30,14 +30,7 @@ All these digital circuit use the original TTL 7400 DIP ICs. The are usually che
 https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/assets/60241038/a64bccd3-416a-4c36-874d-15ef26522132
 
 
-
-![Or Gate Example Circuit](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/0_Transistor_Logic_Gates/d_OR/OR.png)
-*Example OR logic gate built using transistors.*
-
-
 ## 7400 Series IC Memory Digital Circuits
-
-![image](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/Images/digital%20circuits_2.jpg)
 
 &nbsp;
 
