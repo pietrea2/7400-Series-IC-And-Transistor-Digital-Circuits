@@ -1,4 +1,4 @@
-## 6: Seven Segment HEX Decoder
+# 6: Seven Segment HEX Decoder
 
 This is my custom implementation of a decoder for a CA (Common Anode) 7-segment display module that can display **0-9, A-F (all HEX symbols).**  
 ![HEX Symbols](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/hex_symbols.png)
@@ -48,7 +48,17 @@ Below highlights the required amount of logic gates and IC chips necessary for i
 | **Total:** | **15** | **13** |
 
 I managed to minimize this 7-segment HEX decoder even more than the solution provided/designed by [Ben Eater](https://shop.eater.net/) from his [Youtube video](https://www.youtube.com/watch?v=7zffjsXqATg) (his videos and projects inspired me to develop digital circuits on the breadboard!).
- 
+
+## 2nd Alternative Circuit Minimization
+```diff
+a = AB'C'D' + A'B'CD' + ABC'D + AB'CD
+b = AB'CD' + A'BC + ABD + A'CD
+c = A'BC'D' + A'CD + BCD
+d = AB'C'D' + A'B'CD' + ABC + A'BC'D
+e = AD' + AB'C' + B'CD'
+f = AC'D' + ABD' + AB'CD + BC'D'
+g = ABCD' + A'B'CD + B'C'D'
+```
 
 ## Design Files
 
