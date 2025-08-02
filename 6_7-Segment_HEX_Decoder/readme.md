@@ -1,20 +1,34 @@
 ## 6: Seven Segment HEX Decoder
 
-This is my custom implementation of a decoder for a CA (Common Anode) 7-segment display module that can display **0-9, A-F (all HEX symbols).** A common anode HEX display means that providing a volgate level of 0 turns on the segment LED (active low).
+This is my custom implementation of a decoder for a CA (Common Anode) 7-segment display module that can display **0-9, A-F (all HEX symbols).**  
+![HEX Symbols](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/hex_symbols.png)
 
+<br>
+
+A **common anode** HEX display means that providing a volgate level of 0 turns on the segment LED (active low).  
 ![Common Cathode](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/common_anode.png)
 
-![HEX Symbols](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/hex_symbols.png)
+
 
 ## Truth Table & Algebraic Expressions
 
-![Seven Segment Truth Table (Common Cathode)](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/truth_table_common_cathode.png)
+![Seven Segment Truth Table (Common Cathode)](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/truth_table_common_cathode.png)  
+*Full truth table for 7-segment decoder. Input: 0-15, Output: 0-9, A-F*
 
-*Full truth table for 7-segment decoder*
+I found the following minimized algebraic expressions for the 7 segments:  
+- ' = NOT
+- \* = AND
+- \+ = OR
 
-The minimized algebraic expressions for the 7 segments are as follows:
-
-![Seven Segment Algebraic Expression (Common Cathode)](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/algebraic_solution_7_seg.png)
+```diff
+a = (AB'C'D' + A'B'CD') + AB'CD + ABC'D
+b = (A'B'CD + ABCD + A'BCD) + AB'CD' + A'BCD' + ABC'D
+c = (A'B'CD + ABCD + A'BCD) + A'BC'D'
+d = (AB'C'D' + A'B'CD') + ABCD' + ABCD + A'BC'D
+e = (AB'C'D' + A'B'CD') + AB'CD' + AB'C'D + ABC'D' + ABCD'
+f = (AB'C'D' + ABCD') + AB'CD + ABC'D' + A'BC'D'
+g = (AB'C'D' + ABCD') + A'B'C'D' + A'B'CD
+```
 
 ## Circuit Construction
 
