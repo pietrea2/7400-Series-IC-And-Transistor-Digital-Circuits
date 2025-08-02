@@ -32,7 +32,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>b0</string>
+          <string>A</string>
         </entry>
       </elementAttributes>
       <pos x="120" y="200"/>
@@ -46,7 +46,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>b1</string>
+          <string>B</string>
         </entry>
       </elementAttributes>
       <pos x="80" y="200"/>
@@ -60,7 +60,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>b2</string>
+          <string>C</string>
         </entry>
       </elementAttributes>
       <pos x="40" y="200"/>
@@ -74,7 +74,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>b3</string>
+          <string>D</string>
         </entry>
       </elementAttributes>
       <pos x="0" y="200"/>

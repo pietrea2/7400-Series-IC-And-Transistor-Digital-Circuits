@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <truthTable>
   <variables>
-    <variable name="b3"/>
-    <variable name="b2"/>
-    <variable name="b1"/>
-    <variable name="b0"/>
+    <variable name="A"/>
+    <variable name="B"/>
+    <variable name="C"/>
+    <variable name="D"/>
   </variables>
   <results>
     <result>
       <name>a</name>
-      <values class="BoolTable">0100100000010100</values>
+      <values class="BoolTable">0010000010010100</values>
     </result>
     <result>
       <name>b</name>
-      <values class="BoolTable">0000011000011011</values>
+      <values class="BoolTable">0001001100100101</values>
     </result>
     <result>
       <name>c</name>
-      <values class="BoolTable">0010000000001011</values>
+      <values class="BoolTable">0001100100000001</values>
     </result>
     <result>
       <name>d</name>
-      <values class="BoolTable">0100100100100001</values>
+      <values class="BoolTable">0010010010000011</values>
     </result>
     <result>
       <name>e</name>
-      <values class="BoolTable">0101110101000000</values>
+      <values class="BoolTable">0010000011101010</values>
     </result>
     <result>
       <name>f</name>
-      <values class="BoolTable">0111000100000100</values>
+      <values class="BoolTable">0000100010011010</values>
     </result>
     <result>
       <name>g</name>
-      <values class="BoolTable">1100000100001000</values>
+      <values class="BoolTable">1001000010000010</values>
     </result>
   </results>
 </truthTable>
