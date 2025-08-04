@@ -77,6 +77,11 @@ The **quartus** folder holds a schematic developed using Quartus Prime, and incl
 
 ## 7447 IC (BCD-7-Seg Decoder)
 I also tested the 7447 7-segment decoder IC to drive common-anode HEX displays. This decoder only displays numbers **0-9**.  
+
+![7447 HEX Displays](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/7447/hex_display_options.png)
+
+*7447 Display options (no tail for 6 and 9 and no A-F)*
+
 The Lamp Test (LT), Blanking Input (BI), and Ripple Blanking Input (RBI) input signals are all active-low, thus set them all to high to display your outputs.  
 Files are located in the 7447 directory.
 
