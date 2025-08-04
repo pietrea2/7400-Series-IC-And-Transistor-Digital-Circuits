@@ -73,3 +73,27 @@ The **quartus** folder holds a schematic developed using Quartus Prime, and incl
 ![Seven Segment Decoder Logic Circuit](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/decoder_7_seg_quartus_schematic.png)
 
 *7-Segment HEX decoder circuit Quartus schematic*
+
+
+## 7447 IC (BCD-7-Seg Decoder)
+I also tested the 7447 7-segment decoder IC to drive common-anode HEX displays. This decoder only displays numbers **0-9**.  
+The Lamp Test (LT), Blanking Input (BI), and Ripple Blanking Input (RBI) input signals are all active-low, thus set them all to high to display your outputs.  
+Files are located in the 7447 directory.
+
+![7447 Logic Circuit](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/7447/7-seg_decoder_7447_digital_circuit.png)
+
+*7447 7-Segment HEX decoder circuit Digital schematic*
+
+![7447 Quartus Logic Circuit](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/7447/7-seg_decoder_7447_quartus_circuit.png)
+
+*7447 7-Segment HEX decoder circuit Quartus schematic*
+
+## 74HC4511 IC (BCD-7-Seg Decoder)
+I found this IC chip at the electronics store to use for more 7-segment displays I have. However, in the datasheet it doesn't specify if this is used for common anode or common cathode displays. So I have yet to test it by hand.  
+The difference with this decoder (vs 7447) is that the 6 and 9 symbols have a tail!
+
+Also Quartus and Digital do not provide a symbol/schematic for this IC. 
+
+![74HC4511 HEX Displays](https://github.com/pietrea2/7400-Series-IC-And-Transistor-Digital-Circuits/blob/main/6_7-Segment_HEX_Decoder/744511/hex_display_list.png)
+
+*Display options for 74HC4511 IC*
